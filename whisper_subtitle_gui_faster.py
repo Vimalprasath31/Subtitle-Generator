@@ -1,12 +1,4 @@
-"""
-whisper_subtitle_gui_faster_with_options.py
 
-Upgraded GUI:
-- Progress bar shows transcription progress (based on segments' end time / total duration)
-- Checkbox to skip loudnorm (faster extraction) or use loudnorm (better accuracy)
-- Cancel button
-- faster-whisper with int8_float16 -> fallback to int8
-"""
 
 import os
 import threading
