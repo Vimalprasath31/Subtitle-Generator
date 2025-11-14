@@ -1,0 +1,6 @@
+cd C:\vimal
+venv_whisper\Scripts\activate
+set OMP_NUM_THREADS=6
+set MKL_NUM_THREADS=6
+set NUMEXPR_NUM_THREADS=6
+python whisper_subtitle_gui_faster_with_options.py
